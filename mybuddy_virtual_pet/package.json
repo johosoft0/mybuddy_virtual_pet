@@ -1,0 +1,41 @@
+{
+    "author": "Joho Software",
+    "dependencies": {},
+    "keywords": [
+        "virtual-pet",
+        "game",
+        "tamagotchi"
+    ],
+    "name": "mybuddy",
+    "pebble": {
+        "displayName": "MyBuddy SugarGlider",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/25icon.png",
+                    "menuIcon": true,
+                    "name": "25icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "1035dfd3-ddf8-431c-bf39-f886dc0e459b",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.2.0"
+}
